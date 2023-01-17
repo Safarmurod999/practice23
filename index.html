@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 23 Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-2"><img src="images/logo.svg" alt="" /></div>
+            <div class="col-2">
+              <button class="catalog">
+                <img src="images/menu.png" alt="" />Каталог
+              </button>
+            </div>
+            <div class="col-5"><input type="text" placeholder="Я ищу" /></div>
+            <div class="col-1">
+              <button><img src="images/cart.png" alt="" /></button>
+            </div>
+            <div class="col-1">
+              <button><img src="images/fav.png" alt="" /></button>
+            </div>
+            <div class="col-1">
+              <button><img src="images/profile.png" alt="" /></button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2">
+              <p class="nav-text">Динамично. Надежно. Доступно.</p>
+            </div>
+            <div class="col-2"><img src="images/lang.png" alt="images" /></div>
+            <div class="col-4">
+              <ul>
+                <li>
+                  <p>О компании<img src="images/arrow.png" alt="" /></p>
+                </li>
+                <li>
+                  <p>Клиентам<img src="images/arrow.png" alt="" /></p>
+                </li>
+                <li>
+                  <p>Сотрудничество</p>
+                </li>
+                <li>
+                  <p>Контакты</p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-1">
+              <img src="images/social-btn.png" alt="" />
+            </div>
+            <div class="col-3">
+              <p class="number">
+                8 (800) 455-45-11 <img src="images/arrow.png" alt="" />
+              </p>
+              <button class="call-btn">
+                <img src="images/call.svg" alt="" />Заказть звонок
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="home">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/home.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="images/home.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="images/home.png" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <img src="images/pagination.png" alt="">
+      </section>
+      <section class="categories">
+        <h1 class="categories__title">Популярные категории</h1>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-2">
+              <img src="images/product category.png" alt="" />
+              <h3>Стартеры 
+                и комплектующие</h3>
+            </div>
+            <div class="col-2">
+              <img src="images/product category3.png" alt="" />
+              <h3>Термостаты</h3>
+            </div>
+            <div class="col-2">
+              <img src="images/product category4.png" alt="" />
+              <h3>Датчики 
+                и комбинации 
+                приборов
+                </h3>
+            </div>
+            <div class="col-2">
+              <img src="images/product category5.png" alt="" />
+              <h3>Генераторы</h3>
+            </div>
+            <div class="col-2">
+              <img src="images/product category2.png" alt="" />
+              <h3>СВЕТОТЕХНИКА</h3>
+            </div>
+            <div class="col-2">
+              <img src="images/product category6.png" alt="" />
+              <h3>Электродвигатели отопителя</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
