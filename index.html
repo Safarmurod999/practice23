@@ -5,6 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lesson 23 Bootstrap</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
@@ -121,7 +135,7 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-        <img src="images/pagination.png" alt="">
+        <img src="images/pagination.png" alt="" />
       </section>
       <section class="categories">
         <h1 class="categories__title">Популярные категории</h1>
@@ -129,8 +143,7 @@
           <div class="row">
             <div class="col-2">
               <img src="images/product category.png" alt="" />
-              <h3>Стартеры 
-                и комплектующие</h3>
+              <h3>Стартеры и комплектующие</h3>
             </div>
             <div class="col-2">
               <img src="images/product category3.png" alt="" />
@@ -138,10 +151,7 @@
             </div>
             <div class="col-2">
               <img src="images/product category4.png" alt="" />
-              <h3>Датчики 
-                и комбинации 
-                приборов
-                </h3>
+              <h3>Датчики и комбинации приборов</h3>
             </div>
             <div class="col-2">
               <img src="images/product category5.png" alt="" />
@@ -158,8 +168,167 @@
           </div>
         </div>
       </section>
+      <section class="news">
+        <div class="container-fluid">
+          <div class="container-fluid d-flex flex-row justify-content-between">
+            <h2 class="text-black">Новости</h2>
+            <button
+              class="btn btn-light btn-lg border-warning text-warning"
+              type="submit"
+            >
+              Посмотреть все >
+            </button>
+          </div>
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="card" style="border-radius: 20px; border: none">
+                <img src="images/card-img.svg" class="card-img-top" alt="..." />
+                <img class="label" src="images/label.svg" alt="..." />
+                <div class="card-body px-0">
+                  <h5 class="card-title">
+                    Заголовок в две строчки или в три строчки
+                  </h5>
+                  <a href="#" class="text-secondary"
+                    ><img src="images/card-bottom.svg" alt="images"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card" style="border-radius: 20px; border: none">
+                <img src="images/card-img.svg" class="card-img-top" alt="..." />
+                <img class="label" src="images/label.svg" alt="..." />
+                <div class="card-body px-0">
+                  <h5 class="card-title">
+                    Заголовок в две строчки или в три строчки
+                  </h5>
+                  <a href="#" class="text-secondary"
+                    ><img src="images/card-bottom.svg" alt="images"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card" style="border-radius: 20px; border: none">
+                <img src="images/card-img.svg" class="card-img-top" alt="..." />
+                <img class="label" src="images/label.svg" alt="..." />
+                <div class="card-body px-0">
+                  <h5 class="card-title">
+                    Заголовок в две строчки или в три строчки
+                  </h5>
+                  <a href="#" class="text-secondary"
+                    ><img src="images/card-bottom.svg" alt="images"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card" style="border-radius: 20px; border: none">
+                <img src="images/card-img.svg" class="card-img-top" alt="..." />
+                <img class="label" src="images/label.svg" alt="..." />
+                <div class="card-body px-0">
+                  <h5 class="card-title">
+                    Заголовок в две строчки или в три строчки
+                  </h5>
+                  <a href="#" class="text-secondary"
+                    ><img src="images/card-bottom.svg" alt="images"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card" style="border-radius: 20px; border: none">
+                <img src="images/card-img.svg" class="card-img-top" alt="..." />
+                <img class="label" src="images/label.svg" alt="..." />
+                <div class="card-body px-0">
+                  <h5 class="card-title">
+                    Заголовок в две строчки или в три строчки
+                  </h5>
+                  <a href="#" class="text-secondary"
+                    ><img src="images/card-bottom.svg" alt="images"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card" style="border-radius: 20px; border: none">
+                <img src="images/card-img.svg" class="card-img-top" alt="..." />
+                <img class="label" src="images/label.svg" alt="..." />
+                <div class="card-body px-0">
+                  <h5 class="card-title">
+                    Заголовок в две строчки или в три строчки
+                  </h5>
+                  <a href="#" class="text-secondary"
+                    ><img src="images/card-bottom.svg" alt="images"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="banner">
+        <img src="images/Banner.svg" alt="" class="img-fluid">
+      </section>
+      <section class="parts">
+        <div class="container-fluid">
+          <h1>Автозапчасти к технике</h1>
+          <div class="row-parts">
+            <div class="col-2">
+              <img class="img-fluid" src="images/truck.svg" alt="..."><p>Грузовые</p>
+            </div>
+            <div class="col-2">
+              <img class="img-fluid" src="images/tractor.svg" alt="..."><p>Трактора</p>
+            </div>
+            <div class="col-2">
+              <img class="img-fluid" src="images/car.svg" alt="..."><p>Легковые</p>
+            </div>
+            <div class="col-2">
+              <img class="img-fluid" src="images/harvester.svg" alt="..."><p>Сельхозтехника</p>
+            </div>
+            <div class="col-2">
+              <img class="img-fluid" src="images/bus.svg" alt="..."><p>Автобусы</p>
+            </div>
+            <div class="col-2">
+              <img class="img-fluid" src="images/excavator.svg" alt="..."><p>Спецтехника</p>
+            </div>
+            <div class="col-2">
+              <img class="img-fluid" src="images/car.svg" alt="..."><p>Другое</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+    integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+    </script>
   </body>
 </html>

@@ -170,3 +170,65 @@ section {
 .categories .col-2 h3:hover {
   color: #f56e1e;
 }
+
+.news .card-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  color: #4e4b66;
+}
+.news .owl-carousel {
+  padding: 40px 0;
+}
+.news .owl-carousel .owl-item .label {
+  position: absolute;
+  width: 90px !important;
+  top: 14px;
+  left: 15px;
+}
+.news .owl-carousel .owl-item .card img {
+  width: auto !important;
+}
+.news .owl-carousel .owl-item .card-body img {
+  width: auto !important;
+}
+
+.banner {
+  padding: 50px 0;
+}
+
+.parts h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  color: #4e4b66;
+  margin-bottom: 30px;
+}
+.parts .row-parts {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.parts .col-2 {
+  position: relative;
+  width: 172px !important;
+  border-radius: 20px;
+  background: #f1f1f1;
+}
+.parts .col-2 p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #4e4b66;
+  position: absolute;
+  bottom: 21px;
+  left: 50%;
+  transform: translateX(-50%);
+}
